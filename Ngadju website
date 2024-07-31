@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Wicker - Artist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8b4513;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d2b48c;
+            padding: 0.5rem;
+        }
+        nav a {
+            margin: 0 1rem;
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+        }
+        footer {
+            background-color: #8b4513;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 1rem;
+        }
+        .shop img {
+            width: 100%;
+            max-width: 150px;
+            margin: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kyle Wicker - Artist</h1>
+        <p>Digital Art | Mural Art | Aboriginal Dance Troupe Manager</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#shop">Shop</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am Kyle Wicker, an artist who creates digital art for t-shirts, websites, and other digital applications. I am also a mural artist, specializing in realism, abstract, and aboriginal art. I am constantly testing my boundaries. In addition, I manage a traditional aboriginal dance troupe that performs welcomes to country and cultural days at schools, sharing and teaching culture, culminating in a one-hour performance for the entire school.
+        </p>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="art1.jpg" alt="Art 1">
+            <img src="art2.jpg" alt="Art 2">
+            <img src="art3.jpg" alt="Art 3">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+    <section id="shop">
+        <h2>Shop</h2>
+        <div class="shop">
+            <img src="tshirt1.jpg" alt="T-Shirt 1">
+            <img src="tshirt2.jpg" alt="T-Shirt 2">
+            <img src="tshirt3.jpg" alt="T-Shirt 3">
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            For bookings for the dance troupe, cultural days, mural, and art designs for companies and businesses, please contact me at:
+        </p>
+        <p>Email: <a href="mailto:kyle.wicker@example.com">kyle.wicker@example.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Kyle Wicker. All rights reserved.</p>
+    </footer>
+</body>
+</html>
