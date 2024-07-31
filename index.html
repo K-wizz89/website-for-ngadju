@@ -3,57 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kyle Wicker - Art</title>
+    <title>Kyle Wicker - Artist</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #8b4513;
+            background-color: #1f1f1f;
             color: #fff;
-            padding: 1rem 0;
+            padding: 2rem 0;
             text-align: center;
         }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #d2b48c;
-            padding: 0.5rem;
+            background-color: #333;
+            padding: 1rem;
         }
         nav a {
-            margin: 0 1rem;
+            margin: 0 1.5rem;
             color: #fff;
             text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff9800;
         }
         section {
-            padding: 2rem;
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: auto;
         }
         footer {
-            background-color: #8b4513;
+            background-color: #1f1f1f;
             color: #fff;
             text-align: center;
-            padding: 1rem 0;
+            padding: 2rem 0;
         }
-        .gallery img {
+        .gallery, .shop {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img, .shop img {
             width: 100%;
             max-width: 300px;
             margin: 1rem;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
-        .shop img {
-            width: 100%;
-            max-width: 150px;
-            margin: 1rem;
+        .gallery img:hover, .shop img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+        h2 {
+            color: #ff9800;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .contact-info {
+            text-align: center;
+        }
+        .contact-info a {
+            color: #ff9800;
+            text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Kyle Wicker - Artist</h1>
-        <p>Digital Art | Mural Art | Aboriginal Dance Troupe</p>
+        <p>Digital Art | Mural Art | Aboriginal Dance Troupe Manager</p>
     </header>
     <nav>
         <a href="#about">About Me</a>
@@ -87,10 +113,10 @@
     </section>
     <section id="contact">
         <h2>Contact</h2>
-        <p>
-            For bookings for the dance troupe, cultural days, mural, and art designs for companies and businesses, please contact me at:
-        </p>
-        <p>Email: <a href="mailto:kyle.wicker@example.com">kyle.wicker@example.com</a></p>
+        <div class="contact-info">
+            <p>For bookings for the dance troupe, cultural days, mural, and art designs for companies and businesses, please contact me at:</p>
+            <p>Email: <a href="mailto:kyle.wicker@example.com">kyle.wicker@example.com</a></p>
+        </div>
     </section>
     <footer>
         <p>&copy; 2024 Kyle Wicker. All rights reserved.</p>
